@@ -1,0 +1,39 @@
+📌 Features
+- Add customers
+- View customers
+- Add products
+- View products
+- Create invoices
+- Automatically calculate subtotal
+- Calculate GST
+- Calculate grand total
+- View invoices
+- Search invoices
+- Delete invoices
+- JSON data storage
+- Separate modules
+
+🛠️ Tech Stack
+- Python
+- JSON
+- File Handling
+- Datetime
+- Modular Programming
+
+📁 Folder Structure
+invoice-management-system/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── customer_manager.py
+├── product_manager.py
+├── invoice_manager.py
+├── utils.py
+│
+├── data/
+│   ├── customers.json
+│   ├── products.json
+│   └── invoices.json
+│
+└── README.md
